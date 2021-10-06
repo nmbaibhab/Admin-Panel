@@ -119,13 +119,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-  margin-top: 6rem;
-  margin-bottom: 1.8rem;
+  margin-top: 6.5rem;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (max-width:600px) {
   h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
-    margin-top: 5.1rem;
+    margin-top: 5rem;
   }
 }
 
@@ -137,7 +137,7 @@ h5, .h5, h6, .h6 {
 @media only screen and (max-width:600px) {
   h5, .h5, h6, .h6 {
     margin-top: 3.6rem;
-    margin-bottom: 0.9rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -179,6 +179,7 @@ h6, .h6 {
   line-height: 1.3125;
   text-transform: uppercase;
   letter-spacing: .16rem;
+  margin: 0;
 }
 
 p img {
@@ -290,7 +291,7 @@ abbr {
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: .05rem;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(254, 254, 254, 0.2);
 }
 
 var,
@@ -575,7 +576,7 @@ form,
 
 /* dots jump */
 .dots-jump > div {
-  -webkit-animation: dots-jump 1.2s infinite ease;
+  -webkit-animation: dots-jump 1.3s infinite ease;
   animation: dots-jump 1.2s infinite ease;
   animation-delay: 0.2s;
 }
@@ -3673,7 +3674,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .contact-social li {
-  margin-right: 15px;
+  margin-right: 14px;
   padding-left: 0;
   display: inline-block;
 }
@@ -3929,7 +3930,7 @@ footer a {
   .ss-go-top a {
     height: 65px;
     line-height: 65px;
-    top: -32.5px;
+    top: -31.5px;
     padding: 0 3rem;
     padding: 0 2rem;
   }
